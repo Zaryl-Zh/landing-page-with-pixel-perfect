@@ -1,0 +1,54 @@
+@import '../Variables/variables.scss';
+@import '../styles/config';
+
+.header {
+    display: flex;
+    margin-left: 175px;
+    margin-right: 170px;
+    font-family: 'font-style';
+    font-size: 18px;
+
+   
+}
+
+.logo {
+    width: 135px;
+    height: 67px;
+    display: inline-block;
+    color: $tertiary-color;
+    margin: 42px 117px 0 0;
+    padding: 0;
+    
+   
+}
+.nav_items{
+    width: 1350px;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 64px;
+    margin-left: 0;
+    padding-left: 0;
+   
+
+    
+    
+    
+}
+.navbar{
+        width: 850px;
+        display:flex;
+        justify-content: space-evenly;
+        a {
+            color: $tertiary-color;
+            text-decoration: none;
+        }
+       
+       
+    }
+.social{
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+    
+}
